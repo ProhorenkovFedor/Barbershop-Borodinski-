@@ -1,0 +1,153 @@
+html,
+body{
+  min-width: 1122px;
+  min-height: 1750px;
+  margin: 0;
+  padding: 0;
+}
+body{
+  /*background: #000000;*/
+}
+li{
+  list-style: none;
+}
+.main_header{
+  min-height: 70px;
+  margin-bottom: 60px;
+}
+.container{
+  width: 940px;
+  padding: 0 10px;
+  margin: 0 auto;
+  min-height: 70px;
+}
+.main_navigator{
+  width: 780px;
+  min-height: 70px;
+  float: left;
+}
+.user_block{
+  width: 140px;
+  min-height: 70px;
+  float: right;
+}
+.clearfix::after{
+  content: '';
+  display: table;
+  clear: both;
+}
+.index_logo{
+  width: 368px;
+  height: 204px;
+  margin: 0 auto 25px auto;
+  background-color: #000000;
+}
+.features{
+  margin-bottom: 80px;
+}
+.features_item{
+  float: left;
+  width: 300px;
+  margin-right: 20px;
+}
+.features_item:last-child{
+  margin-right: 0;
+}
+.index_content{
+  padding: 50px 80px;
+  margin-bottom: 35px;
+}
+.index_content_left{
+  float: left;
+  width: 380px;
+}
+.index_content_right{
+  float: right;
+  width: 300px;
+}
+.main-footer{
+  margin-top: 65px;
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+.footer_contacts{
+  float: left;
+  width: 320px;
+  margin-right: 60px;
+}
+.footer_social{
+  float: left;
+  width: 180px;
+}
+.footer_copyright{
+  float: right;
+  width: 180px;
+}
+.logo_link{
+  float: none;
+}
+.logo_link img{
+  background-color: #000000;
+}
+.item_content{
+  padding: 50px 0 50px 0;
+  margin-bottom: 35px;
+}
+.item_content_left{
+  float: left;
+  width: 460px;
+}
+.product_photo img{
+  margin-right: 20px;
+}
+.product_photo img:last-child{
+  margin-right: 0;
+}
+.item_content_right{
+  float: right;
+  width: 300px;
+}
+.shop_content{
+  padding: 50px 0 50px 0;
+  margin-bottom: 35px;
+}
+.shop_content_left{
+  float: left;
+  width: 200px;
+}
+.shop_content_right{
+  float: right;
+  width: 700px;
+}
+.product_card{
+  width: 220px;
+  margin-right: 20px;
+  float: right;
+}
+.product_card:nth-child(3n){
+  margin-right: 0;
+}
+.shop_nav{
+  margin-top: 45px;
+}
+.page_title{
+  text-align: center;
+  margin-bottom: 75px;
+}
+.price_content_top{
+  margin-bottom: 70px;
+}
+.price_content_bottom{
+  margin-bottom: 80px;
+}
+.price_content_left{
+  width: 380px;
+  float: left;
+}
+.price_content_right{
+  width: 460px;
+  float: right;
+}
+.price_content_right .text{
+  margin-top: 33px;
+}
